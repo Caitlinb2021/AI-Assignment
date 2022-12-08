@@ -1,5 +1,29 @@
-﻿title: NewYarnScript
+﻿title: IntroYarnScript
 tags:
 ---
+Welcome to the Park #line:092ff23 
 
+We hope you enjoy the scenery and relaxing nature!  #line:0d54df9 
+
+Be sure to explore the area and chat to people along the way #line:05949f4 
+
+Are you ready to start exploring? #line:0e28374 
+
+->Yes, Lets go #line:0e86520 
+<<jump YesStartExploring>>
+
+->No, i do not want to explore #line:01fb94f 
+<<jump NoToExploring>>
+===
+
+title: YesStartExploring
+tag: 
+---
+That's Great! let's start..... #line:04181a4 
+===
+
+title: NoToExploring
+tag:
+---
+Noooo, make sure you come back another time then. #line:0002987 
 ===
