@@ -10,10 +10,18 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 053561912b1654d80a424bb0696a74ae, type: 3}
   sourceScripts:
   - {fileID: 6391573757903218779, guid: 830405498a4310946b16854e50095768, type: 3}
-  compileErrors: []
+  - {fileID: 6391573757903218779, guid: ccaf913a5a57d0348b45ba125ae85c6d, type: 3}
+  - {fileID: 6391573757903218779, guid: 0e550b8aeaaf75c468165eec841d16da, type: 3}
+  - {fileID: 6391573757903218779, guid: c248a6819a4658e49807c4c326e749a5, type: 3}
+  compileErrors:
+  - "16:0: Error: The node 'MakeStatement ' contains illegal characters in its title.\r\ntitle:MakeStatement
+    \r\n"
   serializedDeclarations: []
   defaultLanguage: en-GB
-  languagesToSourceAssets: []
+  languagesToSourceAssets:
+  - languageID: en-GB
+    stringsFile: {instanceID: 0}
+    assetsFolder: {fileID: 102900000, guid: 4344ca75eb8c08c4d8be8fd85f678277, type: 3}
   useAddressableAssets: 0
   searchAllAssembliesForActions: 1
   assembliesToSearch: []

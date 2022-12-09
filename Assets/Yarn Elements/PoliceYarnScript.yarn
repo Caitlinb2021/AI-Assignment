@@ -1,0 +1,41 @@
+﻿title: PoliceYarnScript
+tags:
+--- 
+Hello, What is going on here?  #line:0296514 
+-> There has been a robbery  #line:05d3145 
+===
+
+title: ThereHasBeenARobbery
+tags: 
+---
+Would You like to Make a statement?  #line:079559a 
+-> Yes #line:0dcc6d7 
+-> No #line:0fd377d 
+===
+
+title:MakeStatement
+tags: 
+---
+Okay Describe them to me  #line:05e0221 
+hmmmm  #line:03c565c 
+Yes,  #line:074d714 
+Okay #line:0bbae0d 
+Yes #line:0d39d09 
+Thank you  #line:07df692 
+
+NARRATOR YOU HAVE SUCCESSFULLY REPORTED THE CRIME TO THE POLICE, WELL DONE.  #line:0fda47d 
+YOU CAN NOW JOIN YOUR FRIENDS FOR A PICNIC  #line:0303478 
+=== 
+
+title:NoMakeStatement
+tags: 
+---
+Are you wasting my time? #line:03b4154 
+-> no, i can't remember anything #line:0db042f 
+===
+
+title:NotWastingTime
+tags: 
+---
+i will have to take you down to the station if you carry on, i will leave you to have a think #line:0edb5e1 
+===

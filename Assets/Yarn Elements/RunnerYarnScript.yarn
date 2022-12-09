@@ -1,0 +1,23 @@
+﻿title: RunnerYarnScript
+tags:
+---
+Someone is being mugged will you help me?!  #line:08d6cda 
+
+-> Yes Lets go!  #line:0d665e0 
+
+-> No, i'm not getting involved!  #line:0689eff 
+
+===
+
+title: YesToHelp
+tags: 
+---
+Quick, we have to run before they get away  #line:0feda26 
+===
+
+title: NoToHelp
+tags: 
+---
+What do you mean no?! You will have bad luck for the rest of the day #line:0edd09b 
+===
+

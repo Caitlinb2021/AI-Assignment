@@ -1,0 +1,23 @@
+﻿title: PicnicYarnScript
+tags:
+---
+Well Done Player, you saved the day.  #line:0866226 
+you helped someone to not get robbed and successfully reported the crime to the police #line:0b89633 
+Now it is time for you to enjoy a picnic in the park with your friends! #line:0cb4cd0 
+would you like to sit at the picnic  #line:0402a54 
+-> Yes #line:01a19b3 
+-> No #line:0409c4e 
+===
+
+title:EnjoyPicnic
+tags: 
+---
+Hey Player, you are now free to explore the park at your leisure, continue sitting at the picnic or take a walk around the park  #line:0fd2e69 
+===
+
+title:LeavePicnic
+tags: 
+---
+What a shame, we wanted to talk to you about your eventful day!  #line:0085d33 
+Nevermind, another time then i guess #line:05d7336 
+===
