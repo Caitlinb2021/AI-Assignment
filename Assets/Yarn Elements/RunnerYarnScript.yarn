@@ -12,7 +12,8 @@ Someone is being mugged will you help me?!  #line:08d6cda
 title: YesToHelp
 tags: 
 ---
-Quick, we have to run before they get away  #line:0feda26 
+Quick, we have to run before they get away. Follow me!  #line:0feda26 
+Press TriggerButton on your lefthandcontroller to send a tip to the police  #line:0b4bfca 
 ===
 
 title: NoToHelp
