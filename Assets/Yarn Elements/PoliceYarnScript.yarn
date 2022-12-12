@@ -10,7 +10,10 @@ tags:
 ---
 Would You like to Make a statement?  #line:079559a 
 -> Yes #line:0dcc6d7 
+    <<jump MakeStatement>>
+
 -> No #line:0fd377d 
+    <<jump NoMakeStatement>>
 ===
 
 title:MakeStatement
@@ -32,6 +35,7 @@ tags:
 ---
 Are you wasting my time? #line:03b4154 
 -> no, i can't remember anything #line:0db042f 
+    <<jump NotWastingTime>>
 ===
 
 title:NotWastingTime

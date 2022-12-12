@@ -6,12 +6,14 @@ you helped someone to not get robbed and successfully reported the crime to the 
 Now it is time for you to enjoy a picnic in the park with your friends! #line:0cb4cd0 
 would you like to sit at the picnic  #line:0402a54 
 -> Yes #line:01a19b3 
+   <<jump EnjoyPicnic>>
+ 
 -> No #line:0409c4e 
-===
+    <<jump LeavePicnic>>
 
-title:EnjoyPicnic
-tags: 
----
+title:EnjoyPicnic 
+tags:
+--- 
 Hey Player, you are now free to explore the park at your leisure, continue sitting at the picnic or take a walk around the park  #line:0fd2e69 
 ===
 

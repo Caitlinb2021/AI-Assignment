@@ -1,19 +1,26 @@
 ﻿title: RunnerYarnScript
 tags:
 ---
+
+
 Someone is being mugged will you help me?!  #line:08d6cda 
 
+    <<Walk YarnController>>
+    <<SlowWalk YarnController>> 
+<dedent from 4>
 -> Yes Lets go!  #line:0d665e0 
+     <<jump YesToHelp>>
 
 -> No, i'm not getting involved!  #line:0689eff 
+    <<jump NoToHelp>>
 
-===
-
-title: YesToHelp
-tags: 
----
+title: YesToHelp #line:0a17b04 
+tags:  #line:0f9b5e9 
+--- #line:00f425a 
 Quick, we have to run before they get away. Follow me!  #line:0feda26 
 Press TriggerButton on your lefthandcontroller to send a tip to the police  #line:0b4bfca 
+You have successfully sent a tip to the police, #line:0650779 
+Now you must go and find the police man and talk to him #line:0188d4e 
 ===
 
 title: NoToHelp

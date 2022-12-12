@@ -10,16 +10,15 @@ Be sure to explore the area and chat to people along the way #line:05949f4
 Are you ready to start exploring? #line:0e28374 
 
 ->Yes, Lets go #line:0e86520 
-<<jump YesStartExploring>>
-
+    <<jump YesStartExploring>> 
 ->No, i do not want to explore #line:01fb94f 
-<<jump NoToExploring>>
-===
+    <<jump NoToExploring>>
 
-title: YesStartExploring
-tag: 
----
+title: YesStartExploring #line:0d35b77 
+tag:  #line:06097f6 
+--- 
 That's Great! let's start..... #line:04181a4 
+    <<StartRun YarnController>>
 ===
 
 title: NoToExploring
@@ -27,3 +26,5 @@ tag:
 ---
 Noooo, make sure you come back another time then. #line:0002987 
 ===
+
+   
